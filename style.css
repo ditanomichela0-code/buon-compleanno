@@ -1,0 +1,65 @@
+body {
+    background-color: beige;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #037447;
+    font-size: 50px;
+}
+
+p {
+    color: #037447;
+    font-size: 20px;
+}
+
+button {
+    background-color: #f3d786;
+    font-family: "Times New Roman", serif;
+    color: #037447;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e7dc8a;
+}
+
+#poesia {
+    display: none;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgb(253, 243, 189);
+    border: 2px solid rgb(253, 243, 189);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 80, 80, 0.2);
+}
+
+#poesia h2 {
+    color: #037447;
+    font-family: "Times New Roman", serif;
+}
+
+#poesia p {
+    color: #037447;
+    font-family: "Times New Roman", serif;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+button {
+    background-color: #f3d786;
+    font-family: "Times New Roman", serif;
+    color: #037447;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
