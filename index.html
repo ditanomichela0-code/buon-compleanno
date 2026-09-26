@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Tanti auguri!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Tanti auguri!</h1>
+
+    <p>28.09.2026</p>
+
+<button onclick="poesia()">poesia</button>
+
+<div id="poesia">
+    <h2>Il pastrano</h2>
+
+    <p>
+        Un certo pastrano abitò lungo tempo in casa<br>
+        era un pastrano di lana buona<br>
+        un pettinato leggero<br>
+        un pastrano di molte fatture<br>
+        vissuto e rivoltato mille volte<br>
+        era il disegno del nostro babbo<br>
+        la sua sagoma ora assorta ed ora felice.<br>
+        Appeso a un cappio o al portabiti<br>
+        assumeva un'aria sconfitta:<br>
+        attraverso quell'antico pastrano<br>
+        ho conosciuto i segreti di mio padre<br>
+        vivendoli così, nell'ombra. - Il pastrano, Alda Merini.
+    </p>
+
+     <button onclick="chiudiPoesia()">chiudi</button>
+
+</div>
+
+<script>
+function poesia() {
+    document.getElementById("poesia").style.display = "block";
+}
+
+function chiudiPoesia() {
+    document.getElementById("poesia").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
